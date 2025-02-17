@@ -6,7 +6,7 @@ int main9{
     if(a>0 && b<0){
         printf("True");
     }
-    elif(b>0 && a<0){
+    else if(b>0 && a<0){
         printf("True");
     }
     else{
