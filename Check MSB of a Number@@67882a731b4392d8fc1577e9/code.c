@@ -5,9 +5,9 @@ int main(){
     scanf("%d%d",&a,&b);
     result=a>>31;
     if(result==1){
-        printf(" Not Set");
+        printf("Set");
     }
     else{
-        printf("Set");
+        printf("Not Set");
     }
 }
