@@ -6,7 +6,7 @@ int main(){
     if(b==0){
         printf("1");
     }
-    esle{
+    else{
         printf("0")
     }
 }
