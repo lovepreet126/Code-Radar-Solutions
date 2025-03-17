@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-int mian(){
+int main(){
     int a;
     scanf("%d",&a);
     if(a>=0){
