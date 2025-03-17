@@ -4,11 +4,11 @@ int main(){
     char a;
     scanf("%c",&a);
     if((a>=65 && a<=90) && !(a>=0 || a<=0)){
-        if(a!='a' || a!='e' || a!='o' || a!='i' || a!='u'){
-            printf("constant");
+        if(a=='a' || a=='e' || a=='o' || a=='i' || a=='u'){
+            printf("Vovels");
         }
-        else if(a=='a' || a=='e' || a=='o' || a=='i' || a=='u'){
-            printf("Vovel");
+        else{
+            printf("constant");
         }
     }
     else if(!(a>=65 && a<=90) && (a>=0 || a<=0)){
