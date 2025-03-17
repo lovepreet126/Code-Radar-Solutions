@@ -11,7 +11,7 @@ int main(){
             printf("Vovel");
         }
     }
-    elif if(!(a>=65 && a<=90) && (a>=0 || a<=0)){
+    else if(!(a>=65 && a<=90) && (a>=0 || a<=0)){
         printf("Digit");
     }
     else{
