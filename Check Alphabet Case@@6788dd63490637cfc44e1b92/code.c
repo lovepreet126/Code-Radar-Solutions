@@ -6,6 +6,9 @@ int main(){
     if("%d",a>=65 && "%d",a<=90){
         printf("Uppercase");
     }
+    else if(a>=0 || a<=0){
+        printf("Not an alphabet");
+    }
     else{
         printf("Lowercase");
     }
