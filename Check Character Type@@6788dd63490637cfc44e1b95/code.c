@@ -7,7 +7,7 @@ int main(){
         if(a!='a' || a!='e' || a!='o' || a!='i' || a!='u'){
             printf("constant");
         }
-        else{
+        else if(a=='a' || a=='e' || a=='o' || a=='i' || a=='u'){
             printf("Vovel");
         }
     }
