@@ -1,20 +1,22 @@
-// Your code here...
 #include<stdio.h>
 int main(){
     char a;
-    scanf("%c",&a);
-    if((a>=65 && a<=90) && !(a>=0 || a<=0)){
-        if(a=='a' || a=='e' || a=='o' || a=='i' || a=='u'){
-            printf("Vovels");
+    scanf("%c", &a);
+    
+    if ((a >= 'A' && a <= 'Z') || (a >= 'a' && a <= 'z')) {
+        if (a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u' || a == 'A' || a == 'E' || a == 'I' || a == 'O' || a == 'U') {
+            printf("Vowel");
         }
-        else{
-            printf("constant");
+        else {
+            printf("Consonant");
         }
     }
-    else if(!(a>=65 && a<=90) && (a>=0 || a<=0)){
+    else if (a >= '0' && a <= '9') {
         printf("Digit");
     }
-    else{
+    else {
         printf("Special Character");
     }
+    
+    return 0;
 }
