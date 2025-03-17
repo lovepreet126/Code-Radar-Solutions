@@ -10,12 +10,12 @@ int main(){
         printf("B");
     }
     else if(a>=70 && a<80){
-        printf("c");
+        printf("C");
     }
     else if(a>=60 && a<70){
-        printf("d");
+        printf("D");
     }
     else if(a<60){
-        printf("f");
+        printf("F");
     }
 }
