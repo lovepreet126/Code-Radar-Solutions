@@ -8,7 +8,7 @@ int main(){
             printf("constant");
         }
         else{
-            printf("Vovel";)
+            printf("Vovel");
         }
     }
     elif if(!(a>=65 && a<=90) && (a>=0 || a<=0)){
