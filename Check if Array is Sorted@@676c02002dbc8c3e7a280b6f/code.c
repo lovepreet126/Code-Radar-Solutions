@@ -18,9 +18,12 @@ int main(){
             num=1;
             break;
         }
-        else if(arr[j]<=arr[j+1]){
+        else if(arr[j]<arr[j+1]){
             continue;
         }
+        else if(arr[j]==arr[j+1]{
+            continue;
+        })
     }
     if(num==1){
         printf("Not Sorted");
