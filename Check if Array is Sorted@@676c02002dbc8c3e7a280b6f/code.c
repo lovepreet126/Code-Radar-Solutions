@@ -13,8 +13,8 @@ int main(){
     }
     else{
         for(j=0;j<a;j++){
-        ;
-        if(arr[j]<arr[j+1]){
+        
+        if(arr[j]>arr[j+1]){
             num=1;
             break;
         }
