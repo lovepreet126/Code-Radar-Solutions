@@ -18,7 +18,7 @@ int main(){
             num=1;
             break;
         }
-        else{
+        else if(arr[j]<=arr[j+1]){
             continue;
         }
     }
