@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-int mmian(){
+int mian(){
     int a,b;
     scanf("%d%d",&a,&b);
     if(a%b==0){
