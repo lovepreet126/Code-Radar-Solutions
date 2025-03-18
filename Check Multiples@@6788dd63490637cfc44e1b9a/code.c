@@ -9,4 +9,5 @@ int mian(){
     else{
         printf("No");
     }
+    return 0;
 }
