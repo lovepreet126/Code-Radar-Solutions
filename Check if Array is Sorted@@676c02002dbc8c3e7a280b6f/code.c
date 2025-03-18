@@ -8,7 +8,11 @@ int main(){
        scanf("%d",&b);
        arr[i]=b;
     }
-    for(j=0;j<a;j++){
+    if(a==1){
+        printf("Sorted");
+    }
+    else{
+        for(j=0;j<a;j++){
         ;
         if(arr[j]<arr[j+1]){
             num=1;
@@ -23,5 +27,6 @@ int main(){
     }
     else{
         printf("Sorted");
+    }
     }
 }
