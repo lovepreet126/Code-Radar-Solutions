@@ -11,7 +11,7 @@ int main(){
             max=arr[j];
         }
     }
-    for(k<n;k=0;k--){
+    for(k=n;k=0;k--){
         if(max>arr[k]){
             min=arr[k];
         }
