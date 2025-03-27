@@ -1,5 +1,5 @@
 // Your code here...
-#inlcude<stdio.h>
+#inlclude<stdio.h>
 int main(){
     int a,b;
     char c;
