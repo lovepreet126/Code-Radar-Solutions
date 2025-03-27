@@ -1,13 +1,13 @@
-// Your code here...
-#include<stdio.h>
-int main(){
-    int a,i,j;
-    scanf("%d",&a);
-    for(i=0,i<a,i++){
-        for(i=1,j=i+1,i+++){
+#include <stdio.h>
+int main() {
+    int a, i, j;
+    printf("Enter a number: ");
+    scanf("%d", &a);
+    for(i = a; i >= 1; i--) {
+        for(j = 1; j <= i; j++) {
             printf("*");
-            
         }
-        printf("\n")
+        printf("\n"); 
     }
+    return 0;
 }
