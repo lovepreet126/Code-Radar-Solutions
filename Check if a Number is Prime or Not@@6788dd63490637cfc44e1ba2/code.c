@@ -1,23 +1,27 @@
-// Your code here...
-#include<stdio.h>
-int main(){
-    int a,i,n;
-    scanf("%d",&a);
-    for(i=2,i<a,i++){
-        if(a%i==0){
-            
-            n=0;
+#include <stdio.h>
+
+int main() {
+    int a, i, n = 1;
+    
+    scanf("%d", &a);
+
+    if (a < 2) {
+        printf("Not Prime");
+        return 0;
+    }
+
+    for (i = 2; i * i <= a; i++) {
+        if (a % i == 0) {
+            n = 0;
             break;
         }
-        else{
-            n=1;
-            
-        }
     }
-    if(n==0){
+
+    if (n == 1) {
         printf("Prime");
-    }
-    else{
+    } else {
         printf("Not Prime");
     }
+
+    return 0;
 }
