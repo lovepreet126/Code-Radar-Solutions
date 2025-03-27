@@ -4,7 +4,7 @@ int main() {
     int a, b, d;
     char c;
 
-    scanf("%d %d %c", &a, &b, &c); // Ensure correct input format
+    scanf("%d %d %c", &a, &b, &c); 
 
     if (c == '+') {
         d = a + b;
@@ -16,7 +16,7 @@ int main() {
     } 
     else if (c == '/') {
         if (b == 0) {
-            printf("Error: Division by zero");
+            printf("error");
         } else {
             d = a / b;
             printf("%d", d);
