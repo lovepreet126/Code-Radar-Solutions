@@ -1,15 +1,14 @@
-// Your code here...
-#include<stdio.h>
-int main(){
-    int a,i;
-    scanf("%d",&a);
-    for(i=1,i<=100,i++){
-        if(a==i){
-            printf("In Range");
-            break;
-        }
-        else{
-            printf("Out of Range");
-        }
+#include <stdio.h>
+
+int main() {
+    int a;
+    scanf("%d", &a);
+
+    if (a >= 1 && a <= 100) {
+        printf("In Range");
+    } else {
+        printf("Out of Range");
     }
+
+    return 0;
 }
