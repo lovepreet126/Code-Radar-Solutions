@@ -7,19 +7,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(j=0;j<n;j++){
-        if(arr[j]>0){
-            if(arr[j]>max){
+        if(arr[j]>max){
             max1=max;
             max=arr[j];
-        }
-        }
-        else{
-            if(arr[j]<0){
-            if(arr[j]<max1){
-            max1=max;
-            max=arr[j];
-        }
-            }
         }
 
     }
