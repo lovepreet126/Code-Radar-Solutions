@@ -16,9 +16,8 @@ int main(){
         else{
             if(arr[j]<0){
             if(arr[j]<max1){
-            
-            max=arr[j];
             max1=max;
+            max=arr[j];
         }
             }
         }
