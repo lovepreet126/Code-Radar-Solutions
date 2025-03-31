@@ -4,3 +4,4 @@ int isPrime(int numb) {
         if (numb % i == 0) return 0;
     }
     return 1;
+}
