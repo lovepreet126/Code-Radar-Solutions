@@ -1,4 +1,4 @@
- isPrime(int numb) {
+ int isPrime(int numb) {
     if (numb < 2) {
         printf("not prime\n");
         return;
