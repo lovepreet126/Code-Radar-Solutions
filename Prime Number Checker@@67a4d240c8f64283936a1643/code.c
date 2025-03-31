@@ -1,8 +1,8 @@
 // Your code here...
-void isPrime(int num){
+void isPrime(int numb){
     int i,b;
-    for(i=0;i*i<num;i++){
-        if(num%i==0){
+    for(i=0;i*i<numb;i++){
+        if(numb%i==0){
             b=1;
             break;
         }
