@@ -10,6 +10,7 @@ int main(){
     for(j=0;j<n;j++){
         if(arr[j]==t){
             n=j;
+             printf("%d",n);
             break;
         }
         else{
@@ -17,5 +18,5 @@ int main(){
         }
 
     }
-    printf("%d",n);
+   
 }
