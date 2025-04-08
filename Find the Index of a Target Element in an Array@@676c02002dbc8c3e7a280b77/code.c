@@ -17,5 +17,5 @@ int main(){
         }
 
     }
-    printf("%d",t);
+    printf("%d",n);
 }
